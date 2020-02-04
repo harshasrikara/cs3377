@@ -1,0 +1,864 @@
+Script started on Wed 29 Jan 2020 10:03:19 PM CST
+[?1034h{cslinux1:~} ls
+index.html  jq	perl5  public_html  sample  sample.zip	test.sh  typescript
+{cslinux1:~} mkdir CS33[K[K[K[Kcs3377
+{cslinux1:~} ls
+cs3377	index.html  jq	perl5  public_html  sample  sample.zip	test.sh  typescript
+{cslinux1:~} cd 33
+bash: cd: 33: No such file or directory
+{cslinux1:~} cd cs3377/
+{cslinux1:~/cs3377} ls
+{cslinux1:~/cs3377} vi main.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;13H[K[1;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lC[?12l[?25h[?25lS[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l3[?12l[?25h[?25l7[?12l[?25h[?25l7[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25lm[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25l[3;12H[K[3;12H[?12l[?25h[?25l[3;11H[K[3;11H[?12l[?25h[?25l[3;10H[K[3;10H[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l[5;7H[K[5;7H[?12l[?25h[?25l[5;6H[K[5;6H[?12l[?25h[?25l[5;5H[K[5;5H[?12l[?25h[?25l[5;4H[K[5;4H[?12l[?25h[?25l[5;3H[K[5;3H[?12l[?25h[?25l[5;2H[K[5;2H[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l#[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l<[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25l>[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l[7;1H[K[7;1H[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l[9;1H[K[9;1H[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[9;1H[8;1H[7;1H[6;1H
+
+[7;1H[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l[7;10H[K[7;10H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lc[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lv[?12l[?25h[?25l[[?12l[?25h[?25l][?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25l{[?12l[?25h[?25l[8;19r[8;1H[L[1;20r[8;1H[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;1H[?12l[?25h[?25l}[?12l[?25h[8;1H[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[8;5H[K[9;2Hreturn 0; [?12l[?25h[?25l  return 0; [?12l[?25h[?25l  return 0;  [?12l[?25h [?25lreturn 0;[9;12H[K[9;3H[?12l[?25h[?25lreturn 0;[9;11H[K[9;2H[?12l[?25h[?25lreturn 0;[9;10H[K[9;1H[?12l[?25h[?25l return 0; [?12l[?25h[?25l return 0;  [?12l[?25h[?25l return 0;   [?12l[?25h[?25l return 0;    [?12l[?25h[?25l return 0;     [?12l[?25h[8;2H[?25l[?12l[?25h[?25l[7;19r[19;1H
+[1;20r[7;1Hint main(int argc, char *argv[]) {[19;1H[94m~                                                                                                                       [7;35H[?12l[?25h[?25l[8;19r[m[8;1H[L[1;20r[8;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25l[8;9H[K[8;9H[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[20;1H[K[8;16H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" [New] 13L, 135C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+main.cpp
+{cslinux1:~/cs3377} vi functon[K[Kion.h
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.h" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[1;1H[?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25lnc[?12l[?25h[?25l[1;4H[K[1;4H[?12l[?25h[?25l[1;3H[K[1;3H[?12l[?25h[?25l[1;2H[K[1;2H[?12l[?25h[?25l[1;1H[K[1;1H[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[20;1H[K[1;16H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.h" [New] 1L, 17C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+function.h  main.cpp
+{cslinux1:~/cs3377} vi function.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;13H[K[1;1H[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[1;5H[K[1;5H[?12l[?25h[?25l[1;4H[K[1;4H[?12l[?25h[?25l[1;3H[K[1;3H[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25l[1;10H[K[1;10H[?12l[?25h[?25l[1;9H[K[1;9H[?12l[?25h[?25l[1;8H[K[1;8H[?12l[?25h[?25l[1;7H[K[1;7H[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25l{[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[2;12H[K[2;12H[?12l[?25h[?25l[2;11H[K[2;11H[?12l[?25h[?25l[?12l[?25h[?25l[2;9H[K[2;9H[?12l[?25h[?25l[2;8H[K[2;8H[?12l[?25h[?25l[2;7H[K[2;7H[?12l[?25h[?25l[2;6H[K[2;6H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l
+     [3;6H[K[3;6H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l}[?12l[?25h[20;1H[K[3;1H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.cpp" [New] 3L, 73C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} vi main.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 13L, 135C[1;1H//Harsha Srikara
+//CS 3377
+//Assignment 1
+
+#include<iostream>
+
+int main(int argc, char *argv[]) {[8;6Hfunction();[9;6Hreturn 0;
+}[14;1H[94m~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+
+
+
+
+
+[8;1H[7;1H[mint main(int argc, char *argv[]) [?25l[20;1H[1m-- INSERT --[m[20;13H[K[7;34H[?12l[?25h{[?25l[8;19r[8;1H[L[1;20r[8;1H[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;1H[?12l[?25h[8;1H[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;6H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lt[?12l[?25h[?25l[9;13H[K[9;13H[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l[9;23H[K[9;23H[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l[9;45H[K[9;45H[?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25l[9;64H[K[9;64H[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l[10;19r[10;1H[L[1;20r[10;6H[?12l[?25h[?25l[11;19r[11;1H[L[1;20r[11;6H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25l[11;12H[K[11;12H[?12l[?25h[?25l[11;11H[K[11;11H[?12l[?25h[?25l[11;10H[K[11;10H[?12l[?25h[?25l[11;9H[K[11;9H[?12l[?25h[?25l[11;8H[K[11;8H[?12l[?25h[?25l[11;7H[K[11;7H[?12l[?25h[?25l[11;6H[K[11;6H[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l([?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25li[?12l[?25h[?25l[11;19H[K[11;19H[?12l[?25h[?25l;[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[11;22H[K[11;22H[?12l[?25h[?25l[?12l[?25h[?25l[11;20H[K[11;20H[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lc[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25l{[?12l[?25h[?25l[12;19r[12;1H[L[1;20r[12;6H[?12l[?25h[?25l[13;19r[13;1H[L[1;20r[13;6H[?12l[?25h[?25l}[?12l[?25h[12;1H[?25l[8C[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l[12;14H[K[12;14H[?12l[?25h[?25l[12;13H[K[12;13H[?12l[?25h[?25l[12;12H[K[12;12H[?12l[?25h[?25l[12;11H[K[12;11H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lc[?12l[?25h[?25l[12;16H[K[12;16H[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lv[?12l[?25h[?25l[[?12l[?25h[?25li[?12l[?25h[?25l][?12l[?25h[?25l;[?12l[?25h[?25l[12;30H[K[12;30H[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lD[?12l[?25h[?25l:[?12l[?25h[?25l[12;37H[K[12;37H[?12l[?25h[?25l[12;36H[K[12;36H[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[13;7H
+[15;17H[14;1H[20;1H[K[14;1H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" 20L, 301C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ;s[K[Kls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} g++ [K[K[K[Kvi main.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 20L, 301C[1;1H//Harsha Srikara
+//CS 3377
+//Assignment 1
+
+#include<iostream>
+
+int main(int argc, char *argv[]) {[9;6Hstd::cout << "there are " << argc << " parameters" << std::endl;[11;6Hfor(int i = 0; i < argc; i++) {[12;11Hstd:cout << argv[i] << std::endl;[13;6H}[15;6Hfunction();[16;6Hreturn 0;
+}[1;1H[?12l[?25h
+
+
+
+[?25l[20;1H[1m-- INSERT --[m[20;13H[K[5;1H[?12l[?25h
+[?25l#[?12l[?25h[?25l[7;19r[7;1H[L[1;20r[7;1H[?12l[?25h[6;1H#[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l<[?12l[?25h[?25l[6;9H[K[6;9H[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l[6;10H[K[6;10H[?12l[?25h[?25l"[?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25l"[?12l[?25h[20;1H[K[6;21H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" 21L, 323C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} g++ main.cpp function.cpp
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+           std:cout << argv[i] << std::endl;
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:13:15:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[Kmain.cpp:5:0[m[K:
+[01m[K/usr/include/c++/4.8.2/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream cout;  /// Linked to standard output
+[01;32m[K                  ^[m[K
+[01m[Kfunction.cpp:[m[K In function ‘[01m[Kvoid function()[m[K’:
+[01m[Kfunction.cpp:2:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+      std::cout << "inside function two" << std:endl;
+[01;32m[K      ^[m[K
+[01m[Kfunction.cpp:2:47:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+      std::cout << "inside function two" << std:endl;
+[01;32m[K                                               ^[m[K
+[01m[Kfunction.cpp:2:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+      std::cout << "inside function two" << std:endl;
+[01;32m[K                                            ^[m[K
+{cslinux1:~/cs3377} vi function.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" 3L, 73C[1;1Hvoid function() {[2;6Hstd::cout << "inside function two" << std:endl;
+}
+[94m~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[mv
+     std::cout << "inside function two" << std[?25l[20;1H[1m-- INSERT --[m[20;13H[K[2;47H[?12l[?25h[?25l::endl;[?12l[?25h[20;1H[K[2;47H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.cpp" 3L, 74C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} l
+bash: l: command not found
+{cslinux1:~/cs3377} ls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ls[Kvi function.cpp[10@g++ main.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+           std:cout << argv[i] << std::endl;
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:13:15:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[Kmain.cpp:5:0[m[K:
+[01m[K/usr/include/c++/4.8.2/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream cout;  /// Linked to standard output
+[01;32m[K                  ^[m[K
+[01m[Kfunction.cpp:[m[K In function ‘[01m[Kvoid function()[m[K’:
+[01m[Kfunction.cpp:2:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ is not a member of ‘[01m[Kstd[m[K’
+      std::cout << "inside function two" << std::endl;
+[01;32m[K      ^[m[K
+[01m[Kfunction.cpp:2:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ is not a member of ‘[01m[Kstd[m[K’
+      std::cout << "inside function two" << std::endl;
+[01;32m[K                                            ^[m[K
+{cslinux1:~/cs3377} vi function.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" 3L, 74C[1;1Hvoid function() {[2;6Hstd::cout << "inside function two" << std::endl;
+}
+[94m~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;13H[K[1;1H[?12l[?25h[?25l[2;19r[2;1H[L[1;20r[1;1H[K[2;1Hvoid function() {[?12l[?25h[?25l[3;19r[3;1H[L[1;20r[2;1H[K[3;1Hvoid function() {[?12l[?25h[2;1H[1;1H[?25l#[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l<[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25l>[?12l[?25h[20;1H[K[1;18H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.cpp" 5L, 94C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi function.cpp[10@g++ main.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C
+[01m[Kmain.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope
+           std:cout << argv[i] << std::endl;
+[01;32m[K               ^[m[K
+[01m[Kmain.cpp:13:15:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[Kmain.cpp:5:0[m[K:
+[01m[K/usr/include/c++/4.8.2/iostream:61:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cout[m[K’
+   extern ostream cout;  /// Linked to standard output
+[01;32m[K                  ^[m[K
+{cslinux1:~/cs3377} ls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} vi main.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 21L, 323C[1;1H//Harsha Srikara
+//CS 3377
+//Assignment 1
+
+#include<iostream>
+#include "function.h"
+
+int main(int argc, char *argv[]) {[10;6Hstd::cout << "there are " << argc << " parameters" << std::endl;[12;6Hfor(int i = 0; i < argc; i++) {[13;11Hstd:cout << argv[i] << std::endl;[14;6H}[16;6Hfunction();[17;6Hreturn 0;
+}[1;1H[?12l[?25h
+
+
+
+
+
+
+[7;1H[?25l[20;1H[1m-- INSERT --[m[20;13H[K[7;1H[?12l[?25h[?25l[8;19r[8;1H[L[1;20r[8;1H[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;1H[?12l[?25h[8;1H[?25lu[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l;[?12l[?25h
+[10;21H[11;6H[12;21H
+[12;21H[?25lcout << "there are " << argc << " parameters" << std::endl;[12;69H[K[12;10H[?12l[?25h[?25lcout << "there are " << argc << " parameters" << std::endl;[12;68H[K[12;9H[?12l[?25h[?25lcout << "there are " << argc << " parameters" << std::endl;[12;67H[K[12;8H[?12l[?25h[?25lcout << "there are " << argc << " parameters" << std::endl;[12;66H[K[12;7H[?12l[?25h[?25lcout << "there are " << argc << " parameters" << std::endl;[12;65H[K[12;6H[?12l[?25hcout << "there are " << argc << " parameters" << std::[?25lendl;[12;64H[K[12;59H[?12l[?25h[?25lendl;[12;63H[K[12;58H[?12l[?25h[?25lendl;[12;62H[K[12;57H[?12l[?25h[?25lendl;[12;61H[K[12;56H[?12l[?25h[?25lendl;[12;60H[K[12;55H[?12l[?25h
+[14;37H[15;44H[?25lendl;[15;43H[K[15;38H[?12l[?25h[?25lendl;[15;42H[K[15;37H[?12l[?25h[?25lendl;[15;41H[K[15;36H[?12l[?25h[?25lendl;[15;40H[K[15;35H[?12l[?25h[?25lendl;[15;39H[K[15;34H[?12l[?25hcc[?25l:cout << argv[i] << endl;[15;16H[?12l[?25hcout << argv[i] << [?25lsendl;[?12l[?25h[?25ltendl;[?12l[?25h[?25ldendl;[?12l[?25h[?25l:endl;[?12l[?25h[?25l:endl;[?12l[?25h[14;37H[13;1H[12;40Hparameters" << [?25lsendl;[?12l[?25h[?25ltendl;[?12l[?25h[?25ldendl;[?12l[?25h[?25l:endl;[?12l[?25h[?25l:endl;[?12l[?25h[?25lscout << "there are " << argc << " parameters" << std::endl;[12;7H[?12l[?25h[?25ltcout << "there are " << argc << " parameters" << std::endl;[12;8H[?12l[?25h[?25ldcout << "there are " << argc << " parameters" << std::endl;[12;9H[?12l[?25h[?25l:cout << "there are " << argc << " parameters" << std::endl;[12;10H[?12l[?25h[?25l:cout << "there are " << argc << " parameters" << std::endl;[12;11H[?12l[?25h[11;6H[10;11H[9;1H[?25l[8;19r[19;1H
+[1;20r[8;1Husing namespace std;[19;1H}[8;21H[?12l[?25h[?25l[8;20H[K[8;20H[?12l[?25h[?25l[8;19H[K[8;19H[?12l[?25h[?25l[8;18H[K[8;18H[?12l[?25h[?25l[8;17H[K[8;17H[?12l[?25h[?25l[?12l[?25h[?25l[8;15H[K[8;15H[?12l[?25h[?25l[8;14H[K[8;14H[?12l[?25h[?25l[8;13H[K[8;13H[?12l[?25h[?25l[8;12H[K[8;12H[?12l[?25h[?25l[8;11H[K[8;11H[?12l[?25h[?25l[8;10H[K[8;10H[?12l[?25h[?25l[8;9H[K[8;9H[?12l[?25h[?25l[8;8H[K[8;8H[?12l[?25h[?25l[8;7H[K[8;7H[?12l[?25h[?25l[?12l[?25h[?25l[8;5H[K[8;5H[?12l[?25h[?25l[8;4H[K[8;4H[?12l[?25h[?25l[8;3H[K[8;3H[?12l[?25h[?25l[8;2H[K[8;2H[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l[7;19r[19;1H
+[1;20r[7;1H[?12l[?25h[20;1H[K[7;1H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" 21L, 324C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi main.cppls[Kg++ main.cpp function.cpp
+{cslinux1:~/cs3377} ls
+a.out  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ./a.out
+there are 1 parameters
+./a.out
+inside function two
+{cslinux1:~/cs3377} ./a.out 77
+there are 2 parameters
+./a.out
+77
+inside function two
+{cslinux1:~/cs3377} exit
+
+Script done on Wed 29 Jan 2020 10:21:23 PM CST
+Script started on Wed 29 Jan 2020 11:34:58 PM CST
+[?1034h{cslinux1:~} ls
+cs3377	index.html  jq	perl5  public_html  sample  sample.zip	test.sh  typescript
+{cslinux1:~} cd cs3377/
+{cslinux1:~/cs3377} ls
+a.out  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ./a.out 
+there are 1 parameters
+./a.out
+inside function two
+{cslinux1:~/cs3377} ./a.out 098 ejrg erg
+there are 4 parameters
+./a.out
+098
+ejrg
+erg
+inside function two
+{cslinux1:~/cs3377} clear
+[3;J[H[2J{cslinux1:~/cs3377} ls
+a.out  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} vi main.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 21L, 324C[1;1H//Harsha Srikara
+//CS 3377
+//Assignment 1
+
+#include<iostream>
+#include "function.h"
+
+int main(int argc, char *argv[]) {[10;6Hstd::cout << "there are " << argc << " parameters" << std::endl;[12;6Hfor(int i = 0; i < argc; i++) {[13;11Hstd::cout << argv[i] << std::endl;[14;6H}[16;6Hfunction();[17;6Hreturn 0;
+}[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[15;1H
+[15;1H[?25l[20;1H[1m-- INSERT --[m[20;13H[K[15;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[20;1H[K[15;49H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" 21L, 373C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+a.out  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} rm a.out 
+rm: remove regular file ‘a.out’? yes
+{cslinux1:~/cs3377} s
+bash: s: command not found
+{cslinux1:~/cs3377} ls
+function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ls -al
+total 208
+drwx--x--x  2 hxc170009 unk  84 Jan 29 23:38 .
+drwx--x--x 10 hxc170009 sn  954 Jan 29 22:03 ..
+-rw-------  1 hxc170009 unk  94 Jan 29 22:16 function.cpp
+-rw-------  1 hxc170009 unk  17 Jan 29 22:07 function.h
+-rw-------  1 hxc170009 unk 373 Jan 29 23:36 main.cpp
+{cslinux1:~/cs3377} clear
+[3;J[H[2J{cslinux1:~/cs3377} vi compli[K[Kile.sh
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[1;1H[?12l[?25h[?25l#[?12l[?25h[?25l![?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l#[?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l#[?12l[?25h[?25lC[?12l[?25h[?25lS[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l3[?12l[?25h[?25l7[?12l[?25h[?25l7[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l#[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l[7;1H[K[7;1H[?12l[?25h[?25lg[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25l[7;6H[K[7;6H[?12l[?25h[?25l[7;5H[K[7;5H[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25lc[?12l[?25h[?25l[7;13H[K[7;13H[?12l[?25h[?25l[7;12H[K[7;12H[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l[7;14H[K[7;14H[?12l[?25h[?25l[7;13H[K[7;13H[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lo[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[20;1H[K[8;1H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"compile.sh" [New] 8L, 89C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} chmod 755 compile.sh m\[K[K[K
+{cslinux1:~/cs3377} ls
+compile.sh  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ./compile.sh 
+g++: error: missing filename after ‘-o’
+{cslinux1:~/cs3377} ./compile.sh [Kls
+compile.sh  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ci compile.sh 
+compile.sh,v  <--  compile.sh
+enter description, terminated with single '.' or end of file:
+NOTE: This is NOT the log message!
+>> ^C
+RCS: Interrupt (Signal sent by the kernel 0 0)
+RCS: Cleaning up.
+{cslinux1:~/cs3377} vi vom[K[K[Kcompile.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" 8L, 89C[1;1H#!/bin/bash
+
+#Harsha Srikara
+#CS 3377
+#Assignment one
+
+g++ ./main.cpp ./function.cpp -o
+
+[94m~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+
+
+
+[mg++ ./main.cpp ./function.cpp -[?25l[20;1H[1m-- INSERT --[m[20;14H[K[7;32H[?12l[?25ho[?25l\[?12l[?25h[?25l[7;33H[K[7;33H[?12l[?25h[?25l[7;32H[K[7;32H[?12l[?25h[?25l[7;31H[K[7;31H[?12l[?25h[?25l[?12l[?25h[?25l  ./main.cpp ./function.cppg++ [?12l[?25h[?25l- ./main.cpp ./function.cppg++ -[?12l[?25h[?25lo ./main.cpp ./function.cpp[7;7H[?12l[?25h[20;1H[K[7;6H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"compile.sh" 8L, 89C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi compile.sh c[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./compile.sh 
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+{cslinux1:~/cs3377} ls
+compile.sh  function.cpp  function.h
+{cslinux1:~/cs3377} g++ -o  main.cpp
+g++: fatal error: no input files
+compilation terminated.
+{cslinux1:~/cs3377} ls
+compile.sh  function.cpp  function.h
+{cslinux1:~/cs3377} ls -a
+.  ..  compile.sh  function.cpp  function.h
+{cslinux1:~/cs3377} cd ..
+{cslinux1:~} ls
+cs3377	index.html  jq	perl5  public_html  sample  sample.zip	test.sh  typescript
+{cslinux1:~} cd cs3377/
+{cslinux1:~/cs3377} ls
+compile.sh  function.cpp  function.h
+{cslinux1:~/cs3377} vi main.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;13H[K[1;1H[?12l[?25h[?25l#[?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25l[1;13H[K[1;13H[?12l[?25h[?25l[1;12H[K[1;12H[?12l[?25h[?25l[1;11H[K[1;11H[?12l[?25h[?25l[1;10H[K[1;10H[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l#[?12l[?25h[?25lC[?12l[?25h[?25lS[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l3[?12l[?25h[?25l7[?12l[?25h[?25l7[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l#[?12l[?25h[?25lA[?12l[?25h[?25lS[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25l[3;7H[K[3;7H[?12l[?25h[?25l[3;6H[K[3;6H[?12l[?25h[?25l[3;5H[K[3;5H[?12l[?25h[?25l[3;4H[K[3;4H[?12l[?25h[?25l[3;3H[K[3;3H[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l#[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l<[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25l>[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l#[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lh[?12l[?25h[?25l"[?12l[?25h[?25l[7;1H[K[7;1H[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[8;7H[K[8;7H[?12l[?25h[?25l[8;6H[K[8;6H[?12l[?25h[?25l[8;5H[K[8;5H[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[8;4H[K[8;4H[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lv[?12l[?25h[?25l[8;16H[K[8;16H[?12l[?25h[?25lg[?12l[?25h[?25lv[?12l[?25h[?25l[8;17H[K[8;17H[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lv[?12l[?25h[?25l[[?12l[?25h[?25l][?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25l{[?12l[?25h[?25l[9;1H[K[9;1H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25l[9;19H[K[9;19H[?12l[?25h[?25l"[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l
+     [10;6H[K[10;6H[?12l[?25h[?25l
+     [11;6H[K[11;6H[?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l([?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25ln[?12l[?25h[?25l[11;12H[K[11;12H[?12l[?25h[?25l[11;11H[K[11;11H[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lc[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25l{[?12l[?25h[?25l
+     [12;6H[K[12;6H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lv[?12l[?25h[?25l[[?12l[?25h[?25li[?12l[?25h[?25l][?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l
+          [13;11H[K[13;11H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[94m~                                                                                                                       [12;45H[?12l[?25h[?25l[m
+          [13;11H[K[13;11H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l}[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h[?25l }[?12l[?25h}[?25l
+     [14;6H[K[14;6H[?12l[?25h[?25l
+     [15;6H[K[15;6H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l[15;18H[K[15;18H[?12l[?25h[?25l[?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l[15;24H[K[15;24H[?12l[?25h[?25l[15;23H[K[15;23H[?12l[?25h[?25l[15;22H[K[15;22H[?12l[?25h[?25l[15;21H[K[15;21H[?12l[?25h[?25l[15;20H[K[15;20H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l<[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25l:[?12l[?25h[?25l:[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25l;[?12l[?25h[?25l
+     [16;6H[K[16;6H[?12l[?25h[?25l
+     [17;6H[K[17;6H[?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l
+     [18;6H[K[18;6H[?12l[?25h[?25l
+     [19;6H[K[19;6H[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25ln[?12l[?25h[?25l[19;10H[K[19;10H[?12l[?25h[?25l[19;9H[K[19;9H[?12l[?25h[?25l[19;8H[K[19;8H[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l;[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;6H[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;6H[?12l[?25h[?25l}[?12l[?25h[?25l}[19;6H[K[19;5H[?12l[?25h[?25l}[19;5H[K[19;4H[?12l[?25h[?25l}[19;4H[K[19;3H[?12l[?25h[?25l}[19;3H[K[19;2H[?12l[?25h[18;1H[20;1H[K[18;1H[?25l[?12l[?25h[?25l
+
+:[?12l[?25hwq[?25l"main.cpp" [New] 21L, 366C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} g++ a[Kmain.cpp fi[Kunction.cpp 
+[01m[Kmain.cpp:1:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Harsha
+ #Harsha Srikara
+[01;32m[K  ^[m[K
+[01m[Kmain.cpp:2:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #CS
+ #CS 3377
+[01;32m[K  ^[m[K
+[01m[Kmain.cpp:3:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #Assignment
+ #Assignment 1
+[01;32m[K  ^[m[K
+{cslinux1:~/cs3377} vi main.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 21L, 366C[1;1H#Harsha Srikara
+#CS 3377
+#Assignment 1
+
+#include<iostream>
+#include "function.h"
+
+int main(int argc, char *argv[]) {[9;6Hstd::cout << "therer are " << argc << " arguments" << std::endl;[11;6Hfor(int i = 0; i < argc; i++ ) {[12;11Hstd::cout << argv[i] << std::endl;[13;6H}[15;6Hstd::cout << "inside main.cpp" <<std::endl;[17;6Hfunction();[19;6Hreturn 0;[1;1H[?12l[?25h[?25l[20;1H[1m-- INSERT --[m[20;13H[K[1;1H[?12l[?25h#[?25lHarsha Srikara[1;15H[K[1;1H[?12l[?25h[?25l/Harsha Srikara/[?12l[?25h[?25l/Harsha Srikara//[?12l[?25h
+#C[?25lCS 337[2;8H[K[2;1H[?12l[?25h[?25l/CS 3377/[?12l[?25h[?25l/CS 3377//[?12l[?25h
+#A[?25lAssignment 1[3;13H[K[3;1H[?12l[?25h[?25l/Assignment 1/[?12l[?25h[?25l/Assignment 1//[?12l[?25h[20;1H[K[3;2H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" 21L, 369C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi main.cpp [14@g++ main.cpp functio[C[C[C[C[C[C
+{cslinux1:~/cs3377} ls
+a.out  compile.sh  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} ./a.out 
+therer are 1 arguments
+./a.out
+inside main.cpp
+inside function two
+{cslinux1:~/cs3377} ./a.out sdfvs dfbsa
+therer are 3 arguments
+./a.out
+sdfvs
+dfbsa
+inside main.cpp
+inside function two
+{cslinux1:~/cs3377} rm a.out 
+rm: remove regular file ‘a.out’? yes
+{cslinux1:~/cs3377} ls
+compile.sh  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377} k[Kmkdir copy [K
+{cslinux1:~/cs3377} find . -type f -[K
+./main.cpp
+./compile.sh
+./function.cpp
+./function.h
+{cslinux1:~/cs3377} find . -type f | xargs [K[K[K[K[K[K[K[K[K[K[K f | xargs -i[KI % mv % copy/
+{cslinux1:~/cs3377} ls
+copy
+{cslinux1:~/cs3377} cd copy/
+{cslinux1:~/cs3377/copy} ls
+compile.sh  function.cpp  function.h  main.cpp
+{cslinux1:~/cs3377/copy} lscd copy/ls[Kfind . -type f | xargs -I % mv % copy/[1P[1P[1@c[1@p[C[C[C[C[C[C[C[C[K[K[K[K[K../
+{cslinux1:~/cs3377/copy} cd ..
+{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} g++ -o main.cpp [K[K[K[K[K[K[K[K[K[K[Kc[K[K[K[K[K[Kmain G+[K[Kg++
+bash: main: command not found
+{cslinux1:~/cs3377} man g++
+[?1049h[?1h=GCC(1)                                                   GNU                                                   GCC(1)[m
+[m
+[m
+[m
+[1mNAME[0m[m
+       gcc - GNU project C and C++ compiler[m
+[m
+[1mSYNOPSIS[0m[m
+       gcc [[1m-c[0m|[1m-S[0m|[1m-E[0m] [[1m-std=[0m[4mstandard[24m][m
+           [[1m-g[0m] [[1m-pg[0m] [[1m-O[0m[4mlevel[24m][m
+           [[1m-W[0m[4mwarn[24m...] [[1m-Wpedantic[0m][m
+           [[1m-I[0m[4mdir[24m...] [[1m-L[0m[4mdir[24m...][m
+           [[1m-D[0m[4mmacro[24m[=[4mdefn[24m]...] [[1m-U[0m[4mmacro[24m][m
+           [[1m-f[0m[4moption[24m...] [[1m-m[0m[4mmachine-option[24m...][m
+           [[1m-o[0m [4moutfile[24m] [@[4mfile[24m] [4minfile[24m...[m
+[m
+       Only the most useful options are listed here; see below for the remainder.  [1mg++[0m accepts mostly the same[m
+       options as [1mgcc[0m.[m
+[m
+[7m Manual page g++(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l{cslinux1:~/cs3377} ;[Kls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} vi comcvkndlvkjnw;kfm\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi compile.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" 8L, 89C[1;1H#!/bin/bash
+
+#Harsha Srikara
+#CS 3377
+#Assignment one
+
+g++ -o ./main.cpp ./function.cpp
+
+[94m~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+
+
+
+[mg++ -[?25l[20;1H[1m-- INSERT --[m[20;14H[K[7;6H[?12l[?25ho[?25l ./main.cpp ./function.cp[7;32H[K[7;6H[?12l[?25h[?25lc ./main.cpp ./function.cpp[7;7H[?12l[?25h[20;1H[K[7;6H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"compile.sh" 8L, 89C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi compile.sh [K./compile.sh 
+{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  function.o	main.cpp  main.o
+{cslinux1:~/cs3377} g++ main.o function.o
+{cslinux1:~/cs3377} ls
+a.out  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o
+{cslinux1:~/cs3377} ./a.out 
+therer are 1 arguments
+./a.out
+inside main.cpp
+inside function two
+{cslinux1:~/cs3377} cd [K[K[Krm ./a[K[K[Ka.out main.o funcio[K[Kto[Kion.o
+rm: remove regular file ‘a.out’? ey  yes
+rm: remove regular file ‘main.o’? yes
+rm: remove regular file ‘function.o’? yes
+{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} vi compile.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" 8L, 89C[1;1H#!/bin/bash
+
+#Harsha Srikara
+#CS 3377
+#Assignment one
+
+g++ -c ./main.cpp ./function.cpp
+
+[94m~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+
+
+
+
+[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[8;1H[?12l[?25h[?25lg[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[20;1H[K[8;21H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"compile.sh" 8L, 110C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} ./compile.sh 
+{cslinux1:~/cs3377} ls
+a.out  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o
+{cslinux1:~/cs3377} vi compile.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" 8L, 110C[1;1H#!/bin/bash
+
+#Harsha Srikara
+#CS 3377
+#Assignment one
+
+g++ -c ./main.cpp ./function.cpp
+g++ main.o function.o
+[94m~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+
+
+
+[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[7;1H[?12l[?25h[?25log++ -c ./main.cpp ./function.cppo[?12l[?25h[?25lg++ -c ./main.cpp ./function.cp[7;33H[K[7;1H[?12l[?25h[6;1H[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[6;13H[K[6;13H[?12l[?25h[?25l[6;12H[K[6;12H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[6;17H[K[6;17H[?12l[?25h[?25lp[?12l[?25h[?25l[6;17H[K[6;17H[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l"[?12l[?25h[7;27Hon.cpp[8;22H[7;33H[?25l[8;19r[8;1H[L[1;20r[8;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lk[?12l[?25h[?25l"[?12l[?25h[9;22H[?25l[10;1H[K[10;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l"[?12l[?25h[20;1H[K[10;15H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"compile.sh" 10L, 176C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} rm main.o function.o
+rm: remove regular file ‘main.o’? yes
+rm: remove regular file ‘function.o’? yes
+{cslinux1:~/cs3377} rm a.out 
+rm: remove regular file ‘a.out’? yes
+{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} vi main.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 21L, 369C[1;1H//Harsha Srikara
+//CS 3377
+//Assignment 1
+
+#include<iostream>
+#include "function.h"
+
+int main(int argc, char *argv[]) {[9;6Hstd::cout << "therer are " << argc << " arguments" << std::endl;[11;6Hfor(int i = 0; i < argc; i++ ) {[12;11Hstd::cout << argv[i] << std::endl;[13;6H}[15;6Hstd::cout << "inside main.cpp" <<std::endl;[17;6Hfunction();[19;6Hreturn 0;[1;1H[?12l[?25h
+
+
+
+
+
+[6;1H[5;1H[4;1H[?25l[20;1H[1m-- INSERT --[m[20;13H[K[4;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25l[4;2H[K[4;2H[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[3;1H[2;1H[1;1H//[?25lNHarsha Srikara//N[?12l[?25h[?25laHarsha Srikara//Na[?12l[?25h[?25lmHarsha Srikara//Nam[?12l[?25h[?25leHarsha Srikara[1;7H[?12l[?25h[?25l:Harsha Srikara[1;8H[?12l[?25h[?25l Harsha Srikara[1;9H[?12l[?25h[2;9H[?25lCCS 3377//C[?12l[?25h[?25loCS 3377//Co[?12l[?25h[?25luCS 3377//Cou[?12l[?25h[?25lrCS 3377[2;7H[?12l[?25h[?25lsCS 3377[2;8H[?12l[?25h[?25leCS 3377[2;9H[?12l[?25h[?25l:CS 3377[2;10H[?12l[?25h[?25l CS 3377[2;11H[?12l[?25h[3;11H[?25lAAssignment 1//A[?12l[?25h[?25lsAssignment 1//As[?12l[?25h[?25lsAssignment 1//Ass[?12l[?25h[?25liAssignment 1[3;7H[?12l[?25h[?25lgAssignment 1[3;8H[?12l[?25h[?25lnAssignment 1[3;9H[?12l[?25h[?25lmAssignment 1[3;10H[?12l[?25h[?25leAssignment 1[3;11H[?12l[?25h[?25lnAssignment 1[3;12H[?12l[?25h[?25ltAssignment 1[3;13H[?12l[?25h[?25l:Assignment 1[3;14H[?12l[?25h[?25l Assignment 1[3;15H[?12l[?25hAssignmen
+[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lE[?12l[?25h[?25la[?12l[?25h[?25l[4;4H[K[4;4H[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25lx[?12l[?25h[?25lc[?12l[?25h[?25l1[?12l[?25h[?25l7[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l9[?12l[?25h[?25l[4;17H[K[4;17H[?12l[?25h[?25l0[?12l[?25h[?25l9[?12l[?25h[?25l@[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25lu[?12l[?25h[?25l[5;19r[5;1H[L[1;20r[5;1H[?12l[?25h[?25lD[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l0[?12l[?25h[6;15H[7;15H
+[7;15H[6;15H[5;15H[?25l[6;19r[6;1H[L[1;20r[6;1H[?12l[?25h[?25l[7;19r[7;1H[L[1;20r[7;1H[?12l[?25h[6;1H[?25l.[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lV[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[7;19r[7;1H[L[1;20r[7;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lC[?12l[?25h[?25lo[?12l[?25h[?25lp[?12l[?25h[?25ly[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l1[?12l[?25h[?25l[7;16H[K[7;16H[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25lA[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25lR[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[7;32H[K[7;32H[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l[8;19r[8;1H[L[1;20r[8;1H[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25l[9;11H[K[9;11H[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25lf[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[20;1H[K[9;102H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"main.cpp" 27L, 598C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi compile.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" 10L, 176C[1;1H#!/bin/bash
+
+#Harsha Srikara
+#CS 3377
+#Assignment one
+echo "starting to compile"
+g++ -c ./main.cpp ./function.cpp
+echo "starting to link"
+g++ main.o function.o
+echo "complete"
+[94m~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+[1;1H
+[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[2;1H[?12l[?25h[?25l[3;19r[3;1H[L[1;20r[3;1H[?12l[?25h[?25l[4;19r[4;1H[L[1;20r[4;1H[?12l[?25h[3;1H[?25l#[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l[2;19r[19;1H
+[1;20r[19;1H[94m~                                                                                                                       [2;1H[?12l[?25h[1;1H
+
+
+
+
+
+[?25l[8;19r[m[8;1H[L[1;20r[7;1H[K[8;1Hecho "starting to compile"[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[8;1H[K[9;1Hecho "starting to compile"[?12l[?25h
+[9;1H[8;1H[7;1H[6;1H[5;1H[4;1H#[?25lNHarsha Srikara#N[?12l[?25h[?25laHarsha Srikara#Na[?12l[?25h[?25lmHarsha Srikara#Nam[?12l[?25h[?25leHarsha Srikara#Name[?12l[?25h[?25l:Harsha Srikara[4;7H[?12l[?25h[?25l Harsha Srikara[4;8H[?12l[?25h[5;8H[?25lCCS 3377#C[?12l[?25h[?25loCS 3377#Co[?12l[?25h[?25luCS 3377#Cou[?12l[?25h[?25lsCS 3377#Cous[?12l[?25h[?25lCS 337[5;12H[K[5;5H[?12l[?25h[?25lrCS 3377#Cour[?12l[?25h[?25lsCS 3377[5;7H[?12l[?25h[?25leCS 3377[5;8H[?12l[?25h[?25l:CS 3377[5;9H[?12l[?25h[?25l CS 3377[5;10H[?12l[?25h[6;10H[?25lAAssignment one#A[?12l[?25h[?25lsAssignment one#As[?12l[?25h[?25lsAssignment one#Ass[?12l[?25h[?25liAssignment one#Assi[?12l[?25h[?25lgAssignment one[6;7H[?12l[?25h[?25lnAssignment one[6;8H[?12l[?25h[?25lmAssignment one[6;9H[?12l[?25h[?25leAssignment one[6;10H[?12l[?25h[?25lnAssignment one[6;11H[?12l[?25h[?25ltAssignment one[6;12H[?12l[?25h[?25l:Assignment one[6;13H[?12l[?25h[?25l Assignment one[6;14H[?12l[?25h
+[?25l#[?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[8;19r[8;1H[L[1;20r[8;1H[?12l[?25h[?25l#[?12l[?25h[?25lE[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25lx[?12l[?25h[?25lc[?12l[?25h[?25l1[?12l[?25h[?25l7[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l9[?12l[?25h[?25l@[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25l.[?12l[?25h[?25l[8;26H[K[8;26H[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25lu[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;1H[?12l[?25h[?25l#[?12l[?25h[?25lV[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l[9;9H[K[9;9H[?12l[?25h[?25l[9;8H[K[9;8H[?12l[?25h[?25l[9;7H[K[9;7H[?12l[?25h[?25l[9;6H[K[9;6H[?12l[?25h[?25l[9;5H[K[9;5H[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[10;19r[10;1H[L[1;20r[10;1H[?12l[?25h[?25l@[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[?25l#[?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lk[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[20;1H[K[10;67H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"compile.sh" 16L, 334C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi function.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" 5L, 94C[1;1H#include<iostream>
+
+void function() {[4;6Hstd::cout << "inside function two" << std::endl;
+}
+[94m~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+[m     std::cou[?25l[20;1H[1m-- INSERT --[m[20;13H[K[4;14H[?12l[?25ht[?25l << "inside function two" << std::endl;[4;53H[K[4;14H[?12l[?25h[?25l << "inside function two" << std::endl;[4;52H[K[4;13H[?12l[?25h[?25l << "inside function two" << std::endl;[4;51H[K[4;12H[?12l[?25h[?25l << "inside function two" << std::endl;[4;50H[K[4;11H[?12l[?25h[?25le << "inside function two" << std::endl;[4;12H[?12l[?25h[?25lr << "inside function two" << std::endl;[4;13H[?12l[?25h[?25lr << "inside function two" << std::endl;[4;14H[?12l[?25h[?25l << "inside function two" << std::endl;[4;52H[K[4;13H[?12l[?25h[?25l << "inside function two" << std::endl;[4;51H[K[4;12H[?12l[?25h[?25l << "inside function two" << std::endl;[4;50H[K[4;11H[?12l[?25h[?25lc << "inside function two" << std::endl;[4;12H[?12l[?25h[?25le << "inside function two" << std::endl;[4;13H[?12l[?25h[?25lr << "inside function two" << std::endl;[4;14H[?12l[?25h[?25lr << "inside function two" << std::endl;[4;15H[?12l[?25h << "inside function t[20;1H[K[4;36H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.cpp" 5L, 94C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+compile.sh  copy  function.cpp	function.h  main.cpp
+{cslinux1:~/cs3377} ./compile.sh 
+starting to compile
+starting to link
+complete
+{cslinux1:~/cs3377} ls
+a.out  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o
+{cslinux1:~/cs3377} ./a.out 
+therer are 1 arguments
+./a.out
+inside main.cpp
+inside function two
+{cslinux1:~/cs3377} vi autorun.sh
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"autorun.sh" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[1;1H[?12l[?25h[?25l#[?12l[?25h[?25l![?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l/[?12l[?25h[?25lb[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l[2;1H[K[2;1H[?12l[?25h[?25l[3;1H[K[3;1H[?12l[?25h[?25l#[?12l[?25h[?25lN[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l#[?12l[?25h[?25lC[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[4;6H[K[4;6H[?12l[?25h[?25l[4;5H[K[4;5H[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25lS[?12l[?25h[?25l3[?12l[?25h[?25l3[?12l[?25h[?25l7[?12l[?25h[?25l7[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l#[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25lE[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25lx[?12l[?25h[?25lc[?12l[?25h[?25l1[?12l[?25h[?25l7[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l9[?12l[?25h[?25l@[?12l[?25h[?25l[5;18H[K[5;18H[?12l[?25h[?25l@[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25lu[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l#[?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l[6;17H[K[6;17H[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[7;1H[K[7;1H[?12l[?25h[?25l#[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l#[?12l[?25h[?25l[8;1H[K[8;1H[?12l[?25h[?25l[9;1H[K[9;1H[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[?25l[94m~                                                                                                                       [9;1H[?12l[?25h[?25l[me[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lf[?12l[?25h[?25la[?12l[?25h[?25lu[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25l[9;26H[K[9;26H[?12l[?25h[?25ly[?12l[?25h[?25l[9;26H[K[9;26H[?12l[?25h[?25lt[?12l[?25h[?25l"[?12l[?25h[?25l[9;27H[K[9;27H[?12l[?25h[?25l[9;26H[K[9;26H[?12l[?25h[?25l[9;25H[K[9;25H[?12l[?25h[?25l[9;24H[K[9;24H[?12l[?25h[?25l[9;23H[K[9;23H[?12l[?25h[?25l[9;22H[K[9;22H[?12l[?25h[?25l[9;21H[K[9;21H[?12l[?25h[?25l[9;20H[K[9;20H[?12l[?25h[?25l[?12l[?25h[?25l[9;18H[K[9;18H[?12l[?25h[?25l[9;17H[K[9;17H[?12l[?25h[?25l[9;16H[K[9;16H[?12l[?25h[?25l[9;15H[K[9;15H[?12l[?25h[?25l[?12l[?25h[?25l[9;13H[K[9;13H[?12l[?25h[?25l[9;12H[K[9;12H[?12l[?25h[?25l[9;11H[K[9;11H[?12l[?25h[?25l[9;10H[K[9;10H[?12l[?25h[?25l[9;9H[K[9;9H[?12l[?25h[?25l[9;8H[K[9;8H[?12l[?25h[?25l[9;7H[K[9;7H[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25lc[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[10;5H[K[10;5H[?12l[?25h[?25l[10;4H[K[10;4H[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l[11;1H[K[11;1H[?12l[?25h[?25l[12;1H[K[12;1H[?12l[?25h[?25l[94m~                                                                                                                       [11;1H[?12l[?25h[?25l~                                                                                                                       [10;13H[?12l[?25h[?25l[m[10;12H[K[10;12H[?12l[?25h[?25l[10;11H[K[10;11H[?12l[?25h[?25l[10;10H[K[10;10H[?12l[?25h[?25l[10;9H[K[10;9H[?12l[?25h[?25l[10;8H[K[10;8H[?12l[?25h[?25l[10;7H[K[10;7H[?12l[?25h[?25l[10;6H[K[10;6H[?12l[?25h[?25l[10;5H[K[10;5H[?12l[?25h[?25l[10;4H[K[10;4H[?12l[?25h[?25l[10;3H[K[10;3H[?12l[?25h[?25l[10;2H[K[10;2H[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[?25l[94m~                                                                                                                       [9;48H[?12l[?25h[?25l[m[9;47H[K[9;47H[?12l[?25h[?25l[9;46H[K[9;46H[?12l[?25h[?25l[9;45H[K[9;45H[?12l[?25h[?25l[9;44H[K[9;44H[?12l[?25h[?25l[9;43H[K[9;43H[?12l[?25h[?25l[9;42H[K[9;42H[?12l[?25h[?25l[9;41H[K[9;41H[?12l[?25h[?25l[9;40H[K[9;40H[?12l[?25h[?25l[9;39H[K[9;39H[?12l[?25h[?25l[9;38H[K[9;38H[?12l[?25h[?25l[9;37H[K[9;37H[?12l[?25h[?25l[?12l[?25h[?25l[9;35H[K[9;35H[?12l[?25h[?25l[9;34H[K[9;34H[?12l[?25h[?25l[?12l[?25h[?25l[9;32H[K[9;32H[?12l[?25h[?25l[9;31H[K[9;31H[?12l[?25h[?25l[9;30H[K[9;30H[?12l[?25h[?25l[9;29H[K[9;29H[?12l[?25h[?25l[?12l[?25h[?25l[9;27H[K[9;27H[?12l[?25h[?25l[9;26H[K[9;26H[?12l[?25h[?25l[9;25H[K[9;25H[?12l[?25h[?25l[9;24H[K[9;24H[?12l[?25h[?25l[9;23H[K[9;23H[?12l[?25h[?25l[9;22H[K[9;22H[?12l[?25h[?25l[9;21H[K[9;21H[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lk[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l"[?12l[?25h[?25l[10;1H[K[10;1H[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l[11;1H[K[11;1H[?12l[?25h[?25l[12;1H[K[12;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l[13;1H[K[13;1H[?12l[?25h[?25l[14;1H[K[14;1H[?12l[?25h[?25l[94m~                                                                                                                       [13;1H[?12l[?25h[?25l[m.[?12l[?25h[?25l/[?12l[?25h[?25la[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l[13;12H[K[13;12H[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l[14;1H[K[14;1H[?12l[?25h[?25l[15;1H[K[15;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lc[?12l[?25h[?25lm[?12l[?25h[?25l[15;8H[K[15;8H[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l"[?12l[?25h[20;1H[K[15;15H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"autorun.sh" [New] 15L, 248C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} chmod 755 aur[Ktorun.sh 
+{cslinux1:~/cs3377} ls
+a.out  autorun.sh  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o
+{cslinux1:~/cs3377} ./autorun.sh 
+compiling and linking
+starting to compile
+starting to link
+complete
+running with no parameters
+complete
+{cslinux1:~/cs3377} ls
+a.out  autorun.sh  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o  stderr.log  stdout.log
+{cslinux1:~/cs3377} cat stdout.log 
+therer are 1 arguments
+./a.out
+inside main.cpp
+{cslinux1:~/cs3377} cat stderr.log 
+inside function two
+{cslinux1:~/cs3377} vi autorun.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"autorun.sh" 15L, 248C[1;1H#!/bin/bash
+
+#Name: Harsha Srikara
+#Course: CS3377
+#Email: hxc170009@utdallas.edu
+#Date: Jan 30 2020
+#Assignment: 1
+
+echo "compiling and linking"
+./compile.sh
+
+echo "running with no parameters"
+./a.out >> stdout.log 2>> stderr.log
+
+echo "complete"
+[94m~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+[14;1H[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[14;1H[?12l[?25h[?25l[15;19r[15;1H[L[1;20r[15;1H[?12l[?25h[?25l[16;19r[16;1H[L[1;20r[16;1H[?12l[?25h[15;1H[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l[15;33H[K[15;33H[?12l[?25h[?25l"[?12l[?25h[?25l[16;19r[16;1H[L[1;20r[16;1H[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25la[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l[17;19r[17;1H[L[1;20r[17;1H[?12l[?25h[?25l[19;1H[K[18;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l
+[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25la[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l[19;17H[K[19;17H[?12l[?25h[?25l[19;16H[K[19;16H[?12l[?25h[?25l[19;15H[K[19;15H[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[18;35H[17;1H[16;37H[?25l  >> stdout.log 2>> stderr.log[16;9H[?12l[?25h[?25lb >> stdout.log 2>> stderr.log[16;10H[?12l[?25h[?25lo >> stdout.log 2>> stderr.log[16;11H[?12l[?25h[?25lb >> stdout.log 2>> stderr.log[16;12H[?12l[?25h
+[18;12H[19;11H[?25l  >> stdout.log 2>> stderr.log[19;9H[?12l[?25h[?25lb >> stdout.log 2>> stderr.log[19;10H[?12l[?25h[?25lo >> stdout.log 2>> stderr.log[19;11H[?12l[?25h[?25lb >> stdout.log 2>> stderr.log[19;12H[?12l[?25h[?25l  >> stdout.log 2>> stderr.log[19;13H[?12l[?25h[?25lt >> stdout.log 2>> stderr.log[19;14H[?12l[?25h[?25lr >> stdout.log 2>> stderr.log[19;15H[?12l[?25h[?25lu >> stdout.log 2>> stderr.log[19;16H[?12l[?25h[?25lc >> stdout.log 2>> stderr.log[19;17H[?12l[?25h[?25lk >> stdout.log 2>> stderr.log[19;18H[?12l[?25h >> stdout.log 2>> stderr.log[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25l.[?12l[?25h[?25l/[?12l[?25h[?25la[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25lc[?12l[?25h[?25lk[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25l>[?12l[?25h[?25l[19;39H[K[19;39H[?12l[?25h[?25l2[?12l[?25h[?25l>[?12l[?25h[?25l>[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l"[?12l[?25h[20;1H[K[19;15H[?25l[?12l[?25h[?25l
+:[?12l[?25hwq[?25l"autorun.sh" 26L, 515C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ./autorun.sh 
+compiling and linking
+starting to compile
+starting to link
+complete
+running with no parameters
+running with one parameter
+running with two parameters
+running with three parameters
+complete
+complete
+{cslinux1:~/cs3377} vi ai[Kutorun.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"autorun.sh" 26L, 515C[1;1H#!/bin/bash
+
+#Name: Harsha Srikara
+#Course: CS3377
+#Email: hxc170009@utdallas.edu
+#Date: Jan 30 2020
+#Assignment: 1
+
+echo "compiling and linking"
+./compile.sh
+
+echo "running with no parameters"
+./a.out >> stdout.log 2>> stderr.log
+
+echo "running with one parameter"
+./a.out bob >> stdout.log 2>> stderr.log
+
+echo "running with two parameters"
+./a.out bob truck >> stdout.log 2>> stderr.log[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;19r[19;1H
+[1;20r[20;1H[K[19;1H[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1Hecho "running with three parameters"[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H./a.out bob truck train >> stdout.log 2>> stderr.log[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1Hecho "complete"[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1H[?12l[?25h[?25l[1;19r[19;1H
+[1;20r[19;1Hecho "complete"[?12l[?25h[18;1H[17;1H[?25l[17;1H[K[18;1Hecho "complete"
+[94m~                                                                                                                       [17;1H[?12l[?25h[16;1H[?25l[16;19r[m[19;1H
+[1;20r[19;1H[94m~                                                                                                                       [16;1H[?12l[?25h[?25l[20;1H[m:[?12l[?25hwq[?25l"autorun.sh" 24L, 498C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+a.out  autorun.sh  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o  stderr.log  stdout.log
+{cslinux1:~/cs3377} cat stdout.log 
+therer are 1 arguments
+./a.out
+inside main.cpp
+therer are 1 arguments
+./a.out
+inside main.cpp
+therer are 2 arguments
+./a.out
+bob
+inside main.cpp
+therer are 3 arguments
+./a.out
+bob
+truck
+inside main.cpp
+therer are 4 arguments
+./a.out
+bob
+truck
+train
+inside main.cpp
+{cslinux1:~/cs3377} ls
+a.out  autorun.sh  compile.sh  copy  function.cpp  function.h  function.o  main.cpp  main.o  stderr.log  stdout.log
+{cslinux1:~/cs3377} exit
+
+Script done on Thu 30 Jan 2020 12:31:35 AM CST
+Script started on Sun 02 Feb 2020 09:50:27 PM CST
+[?1034h{cslinux1:~/cs3377} ls
+autorun.sh  compile.sh	function.cpp  function.h  main.cpp  stderr.log	stdout.log  typescript
+{cslinux1:~/cs3377} ci [K[K[Kvi autorun.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"autorun.sh" 24L, 498C[1;1H#!/bin/bash
+
+#Name: Harsha Srikara
+#Course: CS3377
+#Email: hxc170009@utdallas.edu
+#Date: Jan 30 2020
+#Assignment: 1
+
+echo "compiling and linking"
+./compile.sh
+
+echo "running with no parameters"
+./a.out >> stdout.log 2>> stderr.log
+
+echo "running with one parameter"
+./a.out bob >> stdout.log 2>> stderr.log
+
+echo "running with two parameters"
+./a.out bob truck >> stdout.log 2>> stderr.log[1;1H[?12l[?25h
+
+
+
+
+
+
+[?25l[20;1H[97m[41mE348: No string under cursor[8;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;13H[K[8;1H[?12l[?25h[?25l#[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[9;19r[9;1H[L[1;20r[9;1H[?12l[?25h[20;1H[K[9;1H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"autorun.sh" 25L, 510C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi compile.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"compile.sh" 16L, 334C[1;1H#!/bin/bash
+
+
+#Name: Harsha Srikara
+#Course: CS 3377
+#Assignment: Assignment one
+#Date: Jan 30 2020
+#Email: hxc170009@utdallas.edu
+#Version: 1
+#Description: Compiles to object files and then links them together
+
+echo "starting to compile"
+g++ -c ./main.cpp ./function.cpp
+echo "starting to link"
+g++ main.o function.o
+echo "complete"
+[94m~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [1;1H[?12l[?25h
+
+
+
+
+
+[?25l[m[20;1H[K[20;1H:[?12l[?25hq[?25l[20;1H[K[20;1H[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi autorun.sh 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"autorun.sh" 25L, 510C[1;1H#!/bin/bash
+
+#Name: Harsha Srikara
+#Course: CS3377
+#Email: hxc170009@utdallas.edu
+#Date: Jan 30 2020
+#Assignment: 1
+#version: 1
+
+echo "compiling and linking"
+./compile.sh
+
+echo "running with no parameters"
+./a.out >> stdout.log 2>> stderr.log
+
+echo "running with one parameter"
+./a.out bob >> stdout.log 2>> stderr.log
+
+echo "running with two parameters"[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+[9;1H
+[9;1H[?25l[20;1H[1m-- INSERT --[m[20;14H[K[9;1H[?12l[?25h[?25l[10;19r[10;1H[L[1;20r[10;1H[?12l[?25h[9;1H[?25l#[?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lp[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[20;1H[K[9;69H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"autorun.sh" 26L, 580C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} ls
+autorun.sh  compile.sh	function.cpp  function.h  main.cpp  stderr.log	stdout.log  typescript
+{cslinux1:~/cs3377} vi main.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"main.cpp" 27L, 598C[1;1H//Name: Harsha Srikara
+//Course: CS 3377
+//Assignment: Assignment 1
+//Email: hxc170009@utdallas.edu
+//Date: Jan 30
+//Version: 1
+//Copyright: 2020, All Rights reserved
+
+//Description: C++ file that prints arguments and count and also calls another function in a diff[10;1Hf file
+
+#include<iostream>
+#include "function.h"
+
+int main(int argc, char *argv[]) {[16;6Hstd::cout << "therer are " << argc << " arguments" << std::endl;[18;6Hfor(int i = 0; i < argc; i++ ) {[19;11Hstd::cout << argv[i] << std::endl;[1;1H[?12l[?25h
+
+
+
+
+
+
+
+[8;1H[?25l[20;1H[K[20;1H:[?12l[?25hq[?25l[20;1H[K[20;1H[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi du[K[Kfunction.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" 5L, 94C[1;1H#include<iostream>
+
+void function() {[4;6Hstd::cerr << "inside function two" << std::endl;
+}
+[94m~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;13H[K[1;1H[?12l[?25h[?25l[2;19r[2;1H[L[1;20r[1;1H[K[2;1H#include<iostream>[?12l[?25h[?25l[3;19r[3;1H[L[1;20r[2;1H[K[3;1H#include<iostream>[?12l[?25h[?25l[4;19r[4;1H[L[1;20r[3;1H[K[4;1H#include<iostream>[?12l[?25h[3;1H[2;1H[1;1H[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lN[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l[2;19r[2;1H[L[1;20r[2;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lD[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lu[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[2;12H[K[2;12H[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[3;19r[3;1H[L[1;20r[3;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lC[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25lS[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l3[?12l[?25h[?25l7[?12l[?25h[?25l7[?12l[?25h[?25l[4;19r[4;1H[L[1;20r[4;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lC[?12l[?25h[?25lo[?12l[?25h[?25lp[?12l[?25h[?25ly[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l0[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[4;18H[K[4;18H[?12l[?25h[?25l[4;17H[K[4;17H[?12l[?25h[?25l[4;16H[K[4;16H[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[5;19r[5;1H[L[1;20r[5;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[20;1H[K[5;2H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.cpp" 12L, 180C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} cat autorun.sh 
+#!/bin/bash
+
+#Name: Harsha Srikara
+#Course: CS3377
+#Email: hxc170009@utdallas.edu
+#Date: Jan 30 2020
+#Assignment: 1
+#version: 1
+#Description: compiles the file and runs with a set of test arguments
+
+echo "compiling and linking"
+./compile.sh
+
+echo "running with no parameters"
+./a.out >> stdout.log 2>> stderr.log
+
+echo "running with one parameter"
+./a.out bob >> stdout.log 2>> stderr.log
+
+echo "running with two parameters"
+./a.out bob truck >> stdout.log 2>> stderr.log
+
+echo "running with three parameters"
+./a.out bob truck train >> stdout.log 2>> stderr.log
+
+echo "complete"
+{cslinux1:~/cs3377} cat autorun.sh [1@vi function.cpp[C[1Pcat autorun.sh[C[Kvi main.cpp [K[K[K[K[K[K[K[K[Kfunction.cpp 
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" 12L, 180C[1;1H//Name: Harsha Srikara
+//Date: Jan 20th 2020
+//Course: CS 3377
+//Copyright: 2020
+//
+
+
+#include<iostream>
+
+void function() {[11;6Hstd::cerr << "inside function two" << std::endl;
+}
+[94m~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [1;1H[?12l[?25h
+
+
+
+[m/[?25l[20;1H[1m-- INSERT --[m[20;13H[K[5;2H[?12l[?25h/[?25lV[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[6;19r[6;1H[L[1;20r[6;1H[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l[6;8H[K[6;8H[?12l[?25h[?25l[6;7H[K[6;7H[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[7;19r[7;1H[L[1;20r[7;1H[?12l[?25h[?25l[6;19r[19;1H
+[1;20r[6;1HAssignment: 1[19;1H[94m~                                                                                               [6;14H[?12l[?25h[?25l[m[6;13H[K[6;13H[?12l[?25h[?25l[?12l[?25h[?25l[6;11H[K[6;11H[?12l[?25h[?25l[6;10H[K[6;10H[?12l[?25h[?25l[6;9H[K[6;9H[?12l[?25h[?25l[6;8H[K[6;8H[?12l[?25h[?25l[6;7H[K[6;7H[?12l[?25h[?25l[6;6H[K[6;6H[?12l[?25h[?25l[6;5H[K[6;5H[?12l[?25h[?25l[6;4H[K[6;4H[?12l[?25h[?25l[6;3H[K[6;3H[?12l[?25h[?25l[6;2H[K[6;2H[?12l[?25h[?25l[6;1H[K[6;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25l[6;6H[K[6;6H[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25ln[?12l[?25h[?25l[6;33H[K[6;33H[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lr[?12l[?25h[20;1H[K[6;59H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.cpp" 13L, 250C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} clear
+[3;J[H[2J{cslinux1:~/cs3377} v[Kclear
+[3;J[H[2J{cslinux1:~/cs3377} ls
+autorun.sh  compile.sh	function.cpp  function.h  main.cpp  stderr.log	stdout.log  typescript
+{cslinux1:~/cs3377} vi function.cpp
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.cpp" 13L, 250C[1;1H//Name: Harsha Srikara
+//Date: Jan 20th 2020
+//Course: CS 3377
+//Copyright: 2020
+//Version: 1
+//Description: Header file for function that prints to cerr
+
+
+#include<iostream>
+
+void function() {[12;6Hstd::cerr << "inside function two" << std::endl;
+}
+[94m~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [1;1H[?12l[?25h[?25l[m[20;1H[K[20;1H:[?12l[?25hq[?25l[20;1H[K[20;1H[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} vi function.h
+[?1049h[?1h=[1;20r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[20;1H"function.h" 1L, 17C[1;1Hvoid function();
+[94m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [1;1H[?12l[?25h[?25l[m[20;1H[1m-- INSERT --[m[20;14H[K[1;1H[?12l[?25h[?25l[1;1H[K[2;1Hvoid function();[2;17H[K[2;1H[?12l[?25h[?25l[2;1H[K[3;1Hvoid function();[3;17H[K[3;1H[?12l[?25h[?25l[3;1H[K[4;1Hvoid function();[4;17H[K[4;1H[?12l[?25h[3;1H[2;1H[1;1H[?25l/[?12l[?25h[?25l/[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lk[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l[2;19r[2;1H[L[1;20r[2;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lC[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25lS[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l3[?12l[?25h[?25l7[?12l[?25h[?25l7[?12l[?25h[?25l[3;19r[3;1H[L[1;20r[3;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25lg[?12l[?25h[?25l[3;6H[K[3;6H[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[4;19r[4;1H[L[1;20r[4;1H[?12l[?25h[?25lD[?12l[?25h[?25l[4;1H[K[4;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lD[?12l[?25h[?25lt[?12l[?25h[?25l[4;4H[K[4;4H[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lJ[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l0[?12l[?25h[?25l[4;13H[K[4;13H[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l3[?12l[?25h[?25l[4;16H[K[4;16H[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[4;19H[K[4;19H[?12l[?25h[?25l[4;18H[K[4;18H[?12l[?25h[?25l[4;17H[K[4;17H[?12l[?25h[?25l[4;16H[K[4;16H[?12l[?25h[?25l[?12l[?25h[?25l[4;14H[K[4;14H[?12l[?25h[?25l[4;13H[K[4;13H[?12l[?25h[?25l3[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l2[?12l[?25h[?25l0[?12l[?25h[?25l[5;19r[5;1H[L[1;20r[5;1H[?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[5;11H[K[5;11H[?12l[?25h[?25l[5;10H[K[5;10H[?12l[?25h[?25l[5;9H[K[5;9H[?12l[?25h[?25l[5;8H[K[5;8H[?12l[?25h[?25l[5;7H[K[5;7H[?12l[?25h[?25l[5;6H[K[5;6H[?12l[?25h[?25l[5;5H[K[5;5H[?12l[?25h[?25l[5;4H[K[5;4H[?12l[?25h[?25l[5;3H[K[5;3H[?12l[?25h[?25l[5;2H[K[5;2H[?12l[?25h[?25l[5;1H[K[5;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lV[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l[6;19r[6;1H[L[1;20r[6;1H[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lD[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[20;1H[K[6;39H[?25l[?12l[?25h[?25l[20;1H:[?12l[?25hwq[?25l"function.h" 9L, 152C written
+[?1l>[?12l[?25h[?1049l{cslinux1:~/cs3377} clear
+[3;J[H[2J{cslinux1:~/cs3377} cd ..
+{cslinux1:~} ls
+assignment1.zip  cs3377  index.html  jq  perl5	public_html  sample  sample.zip  test.sh
+{cslinux1:~} rm assignment1.zip 
+rm: remove regular file ‘assignment1.zip’? yes
+{cslinux1:~} ls
+cs3377	index.html  jq	perl5  public_html  sample  sample.zip	test.sh
+{cslinux1:~} zip -r cs3377/[K[K[K[K[K[K[Kassignment1.zip cs3377/
+  adding: cs3377/ (stored 0%)
+  adding: cs3377/stderr.log (deflated 75%)
+  adding: cs3377/main.cpp (deflated 42%)
+  adding: cs3377/autorun.sh (deflated 54%)
+  adding: cs3377/compile.sh (deflated 33%)
+  adding: cs3377/stdout.log (deflated 70%)
+  adding: cs3377/function.cpp (deflated 27%)
+  adding: cs3377/function.h (deflated 20%)
+  adding: cs3377/typescript (deflated 91%)
+{cslinux1:~} clear
+[3;J[H[2J{cslinux1:~} ls
+assignment1.zip  cs3377  index.html  jq  perl5	public_html  sample  sample.zip  test.sh
+{cslinux1:~} lo[K[Kexit
+exit
+
+Script done on Sun 02 Feb 2020 10:04:20 PM CST
