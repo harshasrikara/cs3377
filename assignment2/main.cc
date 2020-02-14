@@ -1,3 +1,14 @@
+/*
+ * Filename Main.cc
+ * Date February 13th 2020
+ * Author Harsha Srikara
+ * Email hxc170009@utdallas.edu
+ * Course CS3377.501
+ * Version 1
+ * Copyright Harsha Srikara
+ *
+ * Description converts text to uppercase/lowercase based on command line args */
+
 #include <iostream>
 #include <algorithm>
 #include <bits/stdc++.h> 
@@ -13,9 +24,16 @@ int main(int argc, char *argv[])
     parser commandLineParser;
     commandLineParser.parseCommandLine(argc, argv);
     std::map<key,std::string> map = commandLineParser.getMap();
+
     std::string data = readFile(map[infile]);
-    writeFile(map[outfile], data);
-    std::string rando = uppercase(data);
+    std::string final = data;
+    if(map[upper].length()==4) {
+      final = uppercase(data);
+    }
+    if(map[lower].length()==4) {
+      final = lowercase(data);
+    }
+    writeFile(map[outfile], final);
     return 0;
 }
 

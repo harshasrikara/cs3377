@@ -1,3 +1,15 @@
+/*
+ * Filename parser.cc
+ * Date February 13th 2020
+ * Author Harsha Srikara
+ * Email hxc170009@utdallas.edu
+ * Course CS3377.501
+ * Version 1
+ * Copyright Harsha Srikara
+ *
+ * Description reads command line args */
+
+
 #include "parser.h"
 
 //constructor
@@ -9,8 +21,6 @@ parser::parser()
 //will instatiate all tclap objects to make parse the command line and save them to a map
 void parser::parseCommandLine(int argc, char *argv[])
 {
-    std::cout << "argument count: " << argc << std::endl;
-
     try {
         TCLAP::CmdLine cmd("Program will parse command line to receive arguments and use them to change text file to upper/lower case", ' ', "1.0");
         TCLAP::SwitchArg upperSwitch("u", "upper", "Convert all text to uppercase.", cmd, false);

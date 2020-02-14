@@ -1,3 +1,14 @@
+/*
+ * Filename parser.h
+ * Date February 13th 2020
+ * Author Harsha Srikara
+ * Email hxc170009@utdallas.edu
+ * Course CS3377.501
+ * Version 1
+ * Copyright Harsha Srikara
+ *
+ * Description converts text to uppercase/lowercase based on command line args */
+
 #ifndef PARSER_H_
 #define PARSER_H_
 
