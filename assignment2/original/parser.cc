@@ -12,10 +12,15 @@
 
 #include "parser.h"
 
-//will instatiate all tclap objects to make parse the command line and save them to a map
-std::map<keys, std::string> parseCommandLine(int argc, char *argv[])
+//constructor
+parser::parser()
 {
-  std::map<keys, std::string> map;
+
+}
+
+//will instatiate all tclap objects to make parse the command line and save them to a map
+void parser::parseCommandLine(int argc, char *argv[])
+{
     try {
         TCLAP::CmdLine cmd("Program will parse command line to receive arguments and use them to change text file to upper/lower case", ' ', "1.0");
         TCLAP::SwitchArg upperSwitch("u", "upper", "Convert all text to uppercase.", cmd, false);
@@ -47,12 +52,17 @@ std::map<keys, std::string> parseCommandLine(int argc, char *argv[])
     catch(TCLAP::ArgException exception) {
         std::cout << "Error Encountered: " << std::endl;
     }
-    return map;
 }
 
-std::string convertBoolToString(bool a) {
+std::string parser::convertBoolToString(bool a) {
     if(a) {
         return "true";
     }
     return "false";
+}
+
+//return map object
+std::map<key, std::string> parser::getMap()
+{
+    return map;
 }

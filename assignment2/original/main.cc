@@ -21,7 +21,9 @@ std::string lowercase(std::string text);
 
 int main(int argc, char *argv[])
 {
-  std::map<keys,std::string> map = parseCommandLine(argc, argv);
+    parser commandLineParser;
+    commandLineParser.parseCommandLine(argc, argv);
+    std::map<key,std::string> map = commandLineParser.getMap();
 
     std::string data = readFile(map[infile]);
     std::string final = data;

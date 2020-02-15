@@ -20,7 +20,7 @@
 #include <tclap/ValueArg.h>
 #include <tclap/UnlabeledValueArg.h>
 
-enum keys
+enum key
 {
     upper,
     lower,
@@ -28,7 +28,18 @@ enum keys
     infile
 };
 
-std::map<keys, std::string>  parseCommandLine(int argc, char *argv[]);
+class parser
+{
+
+private:
+    std::map<key, std::string> map;
+
+public:
+    parser();
+    void parseCommandLine(int argc, char *argv[]);
+    TCLAP::CmdLine initialize();
+    std::map<key, std::string> getMap();
     std::string convertBoolToString(bool a);
+};
 
 #endif
