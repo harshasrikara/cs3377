@@ -1,0 +1,4 @@
+BEGIN {sumA=0;sumB=0}
+{sumA+=$0}
+{sumB+=$4}
+END {printf "%d %d\n",sumA,sumB;}
