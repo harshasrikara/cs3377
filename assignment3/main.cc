@@ -26,8 +26,10 @@ int main(int argc, char *argv[])
   char tmpbuffer[BUFFER_SIZE];
   char *line_p;
 
-  std::string shellcmd = "./bin/gawk --version";
+  std::cout << "gawk at /home/axon/hxc170009/cs3377/assignment3/bin/gawk" << std::endl;
 
+  std::string shellcmd = "/home/axon/hxc170009/cs3377/assignment3//bin/gawk --version";
+  std::cout << shellcmd << std::endl;
   std::cout << std::endl;
   std::cout << "The first call to gawk returned:: " << std::endl;
   std::cout << std::endl;
@@ -49,8 +51,8 @@ int main(int argc, char *argv[])
   std::cout << std::endl;
 
 
-  shellcmd = "./bin/gawk -f gawk.code numbers.txt";
-
+  shellcmd = "/home/axon/hxc170009/cs3377/assignment3/bin/gawk -f gawk.code numbers.txt";
+  std::cout << shellcmd << std::endl;
   std::cout << std::endl;
   std::cout << "The second call to gawk returned:: ";
 
@@ -62,6 +64,7 @@ int main(int argc, char *argv[])
 
   line_p = fgets(tmpbuffer, BUFFER_SIZE, output_from_command);
   printf("%s", line_p);
+  std::cout << std::endl;
   int total = sum(line_p);
   std::cout << "The sum of the two numbers is " << total << std::endl;
   std::cout << std::endl;
