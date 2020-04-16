@@ -70,7 +70,7 @@ suffix_part:            SRTOKEN     {fprintf(stderr,"<Suffix>Sr.</Suffix>\n"); }
 street_address:         street_number   street_name INTTOKEN    EOLTOKEN    {fprintf(stderr,"<AptNum>%d</AptNum>\n",$3); }
                     |   street_number   street_name HASHTOKEN   INTTOKEN    EOLTOKEN    {fprintf(stderr,"<AptNum>%d</AptNum>\n",$4); }
                     |   street_number   street_name EOLTOKEN
-                    |   error   EOLTOKEN    {fprintf(stdout, "Bad name-part...skipping to newline\n"); }
+                    |   error   EOLTOKEN    {fprintf(stdout, "Bad street_address...skipping to newline\n"); }
                     ;
 street_number:          INTTOKEN    {fprintf(stderr,"<HouseNumber>%d</HouseNumber>\n",$1); }
                     |   IDENTIFIERTOKEN {fprintf(stderr,"<HouseNumber>%s</HouseNumber>\n",$1); }
@@ -78,7 +78,7 @@ street_number:          INTTOKEN    {fprintf(stderr,"<HouseNumber>%d</HouseNumbe
 street_name:            NAMETOKEN   {fprintf(stderr,"<StreetName>%s</StreetName>\n",$1); }
                     ;
 location_part:          town_name   COMMATOKEN  state_code  zip_code    EOLTOKEN
-                    |   error      {fprintf(stdout, "Bad name-part...skipping to newline\n"); }
+                    |   error       EOLTOKEN     {fprintf(stdout, "Bad location_part...skipping to newline\n"); }
                     ;
 town_name:              NAMETOKEN   {fprintf(stderr,"<City>%s</City>\n",$1); }
                     ;
