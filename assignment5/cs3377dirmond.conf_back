@@ -1,6 +1,5 @@
 [Parameters]
 Verbose=true
 LogFile=cs3377dirmond.log
-Password=secret
 NumVersions=10
 WatchDir=/home/axon/hxc170009/testFolder

@@ -1,0 +1,7 @@
+daemon mode: false
+configuration file: cs3377dirmond.conf
+verbose mode: true
+logging file: cs3377dirmond.log
+password: secret
+number of versions: 10
+watch directory: /home/axon/hxc170009/testFolder

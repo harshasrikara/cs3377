@@ -9,32 +9,17 @@
  *
  * Description <F6> */
 
-#ifndef PARSER_H_
-#define PARSER_H_
+#ifndef PARSE_CONFIG
+#define PARSE_CONFIG
 
 #include <iostream>
 #include <map>
 #include <exception>
+#include <string.h>
 #include <fstream>
-#include <tclap/CmdLine.h>
-#include <tclap/SwitchArg.h>
-#include <tclap/ValueArg.h>
-#include <tclap/UnlabeledValueArg.h>
-//#include <rude/config.h>
+#include <rude/config.h>
+#include "enum.h"
 
-enum keys
-{
-    daemon,
-    configFile,
-    verbose,
-    logFile,
-    password,
-    numVersions,
-    watchDir
-};
-
-std::map<keys, std::string>  parseCommandLine(int argc, char *argv[]);
-std::map<keys, std::string> parseConfigFile(std::map<keys, std::string> cmdLineArgs);
-std::string convertBoolToString(bool a);
+int parseConfigFile(std::map<keys, std::string> &map);
 
 #endif

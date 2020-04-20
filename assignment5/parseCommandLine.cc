@@ -10,12 +10,12 @@
  * Description reads command line args */
 
 
-#include "parser.h"
+#include "parseCommandLine.h"
+#include "enum.h"
 
 //will instatiate all tclap objects to make parse the command line and save them to a map
-std::map<keys, std::string> parseCommandLine(int argc, char *argv[])
+int parseCommandLine(int argc, char *argv[], std::map<keys, std::string> &map)
 {
-  std::map<keys, std::string> map;
     try {
         TCLAP::CmdLine cmd("cs3377dirmond Directory Monitor Daemon", ' ', "1.0");
         TCLAP::SwitchArg daemonSwitch("d", "daemon", "Run in daemon mode (forks to run as a daemon)", cmd, false);
@@ -28,14 +28,15 @@ std::map<keys, std::string> parseCommandLine(int argc, char *argv[])
         bool isDaemon = daemonSwitch.getValue();
         std::string confFile = confFileArg.getValue();
 
-        map.insert(std::make_pair(daemon,convertBoolToString(isDaemon)));
+        map.insert(std::make_pair(daemonX,convertBoolToString(isDaemon)));
         map.insert(std::make_pair(configFile,confFile));
 
     }
     catch(TCLAP::ArgException exception) {
-        std::cout << "Error Encountered: " << std::endl;
+        std::cout << "Error Encountered: TCLAP ArgException" << std::endl;
+	return 1; //return error code
     }
-    return map;
+    return 0; //return successfully
 }
 
 std::string convertBoolToString(bool a) {

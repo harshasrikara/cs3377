@@ -37,7 +37,7 @@ PROJECTNAME = Assignment5
 # Enter the names of the C++ source files that you want to compile
 # with this project
 
-SRCS = main.cc parseCommandLine.cc parseConfigFile.cc
+SRCS = main.cc log.cc parseCommandLine.cc parseConfigFile.cc
 
 # Enter the name for the executable to be created
 EXEC = a.out
@@ -67,7 +67,7 @@ clean:
 
 #  This is a rule to link the files.  Pretty standard
 $(EXEC): $(OBJS)
-	$(CXX) -o $(EXEC) $(LDFLAGS) $(OBJS)
+	$(CXX) -o $(EXEC)  $(OBJS) $(LDFLAGS) $(LDLIBS)
 
 Makefile: $(SRCS:.cc=.d)
 

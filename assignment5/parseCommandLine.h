@@ -9,8 +9,8 @@
  *
  * Description <F6> */
 
-#ifndef PARSER_H_
-#define PARSER_H_
+#ifndef PARSE_COMMAND
+#define PARSE_COMMAND
 
 #include <iostream>
 #include <map>
@@ -20,21 +20,9 @@
 #include <tclap/SwitchArg.h>
 #include <tclap/ValueArg.h>
 #include <tclap/UnlabeledValueArg.h>
-//#include <rude/config.h>
+#include "enum.h"
 
-enum keys
-{
-    daemon,
-    configFile,
-    verbose,
-    logFile,
-    password,
-    numVersions,
-    watchDir
-};
-
-std::map<keys, std::string>  parseCommandLine(int argc, char *argv[]);
-std::map<keys, std::string> parseConfigFile(std::map<keys, std::string> cmdLineArgs);
+int  parseCommandLine(int argc, char *argv[], std::map<keys, std::string> &map);
 std::string convertBoolToString(bool a);
 
 #endif
