@@ -1,4 +1,14 @@
 
+/*
+ * Filename log.cc
+ * Date April 21st 2020
+ * Author Harsha Srikara
+ * Email hxc170009@utdallas.edu
+ * Course CS3377.501
+ * Version 1
+ * Copyright Harsha Srikara
+ * Description Contains the implementation for the log functions       */
+
 #include "log.h"
 
 //log all configuration variables
@@ -12,6 +22,7 @@ void logConfigurationVariables(std::map<keys, std::string> map, std::ofstream &l
   loggingFile << "watch directory: " << map[watchDir] << std::endl;
 }
 
+//log statement when a file gets created
 void logFileCreate(struct inotify_event *e, std::ofstream &loggingFile, std::string verbose) {
   loggingFile << "Creation event occured" << std::endl;
   if(verbose.length() == 4) {
@@ -24,6 +35,7 @@ void logFileCreate(struct inotify_event *e, std::ofstream &loggingFile, std::str
   }
 }
 
+//log statement when file gets modified
 void logFileModify(struct inotify_event *e, std::ofstream &loggingFile, std::string verbose) {
   loggingFile << "Modification event occured" << std::endl;
   if(verbose.length() == 4) {
@@ -36,6 +48,7 @@ void logFileModify(struct inotify_event *e, std::ofstream &loggingFile, std::str
   }
 }
 
+//log statement when file gets deleted
 void logFileDeletion(struct inotify_event *e, std::ofstream &loggingFile, std::string verbose) {
   loggingFile << "Deletion event occured" << std::endl;
   if(verbose.length() == 4) {

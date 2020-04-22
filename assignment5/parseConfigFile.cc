@@ -1,3 +1,12 @@
+/*
+ * Filename parseCommandLine.cc
+ * Date April 21st 2020
+ * Author Harsha Srikara
+ * Email hxc170009@utdallas.edu
+ * Course CS3377.501
+ * Version 1
+ * Copyright Harsha Srikara
+ * Description Utilize the rude library to parse the configuration file */
 
 #include "parseConfigFile.h"
 
@@ -32,13 +41,14 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
 	std::string emptyString = "";	
 	//set section to parameters and retrieve values only after checking if they exist
 	config.setSection("Parameters",false);
-
+	
+	//search for verbose parameter
 	if(config.exists("Verbose")) {
 		if(strcmp(map[verbose].c_str(), emptyString.c_str()) == 0) {
 			map.erase(verbose);
 	        	map.insert(std::make_pair(verbose, config.getStringValue("Verbose")));
 		}
-		else {
+		else {  //overwrite parameter if changed at runtime
 			map.erase(verbose);
 			map.insert(std::make_pair(verbose, config.getStringValue("Verbose")));
 		}
@@ -47,13 +57,14 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
 		std::cout << "Verbose parameter not found" << std::endl;
 		return 1;
 	}
-
+	
+	//search for LogFile parameter
 	if(config.exists("LogFile")) {
 	        if(strcmp(map[logFile].c_str(), emptyString.c_str()) == 0) {
 			map.erase(logFile);
        			map.insert(std::make_pair(logFile, config.getStringValue("LogFile")));
 		}
-		else {
+		else {  //overwrite parameter if changed at runtime
 			map.erase(logFile);
  			map.insert(std::make_pair(logFile, config.getStringValue("LogFile")));
 		}
@@ -62,16 +73,17 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
 		std::cout << "LogFile parameter not found" << std::endl;
 		return 1;
 	}
-
+	
+	//search for password parameter
 	if(config.exists("Password")) {
 		if(strcmp(map[password].c_str(), emptyString.c_str()) == 0) {
 			map.erase(password);
 	        	map.insert(std::make_pair(password, config.getStringValue("Password")));
 		}
-		else {
+		else {  //ensure that it connot be overwritten at runtime
 			if(strcmp(map[password].c_str(), config.getStringValue("Password")) != 0) {
 				std::cout << "Error, attempting to modify password" << std::endl;
-				return 1;
+				return 1; //exit if password gets modified while daemon is running
 			}
 		}
 	}
@@ -79,13 +91,14 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
 		std::cout << "Password parameter not found" << std::endl;
 		return 1;
 	}
-
+	
+	//search for numVersions parameter
 	if(config.exists("NumVersions")) {
 		if(strcmp(map[numVersions].c_str(), emptyString.c_str()) == 0) {
 			map.erase(numVersions);
                 	map.insert(std::make_pair(numVersions, config.getStringValue("NumVersions")));
 		}
-		else {
+		else {  //overwrite if changed at runtime
 			map.erase(numVersions);
 			map.insert(std::make_pair(numVersions, config.getStringValue("NumVersions")));
 		}
@@ -94,16 +107,17 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
  	        std::cout << "NumVersions parameter not found" << std::endl;
 		return 1;
 	}
-
+	
+	//search for watch directory parameter
 	if(config.exists("WatchDir")) {
 		if(strcmp(map[watchDir].c_str(), emptyString.c_str()) == 0) {
 			map.erase(watchDir);
 	        	map.insert(std::make_pair(watchDir, config.getStringValue("WatchDir")));
 		}
-		else {
+		else {  //ensure that it cannot be overwritten at runtime
 			if(strcmp(map[watchDir].c_str(), config.getStringValue("WatchDir")) != 0) {
 				std::cout << "Error, attempting to modify watch directory" << std::endl;
-				return 1;
+				return 1; //exit if the watch directory gets modified while daemon is running
 			}
 		}
         }

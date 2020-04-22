@@ -1,13 +1,13 @@
 /*
- * Filename parser.h
- * Date April 18th 2020
+ * Filename parseConfigFile.h
+ * Date April 21th 2020
  * Author Harsha Srikara
  * Email hxc170009@utdallas.edu
  * Course CS3377.501
  * Version 1
  * Copyright Harsha Srikara
  *
- * Description <F6> */
+ * Description contains the function prototypes for the code to use the rude library */
 
 #ifndef PARSE_CONFIG
 #define PARSE_CONFIG

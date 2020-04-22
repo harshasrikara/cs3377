@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 #
 # Filename:		Makefile
-# Date:			03/1/2020
+# Date:			04/21/2020
 # Author:		Harsha Srikara
 # Email:		hxc170009@utdallas.edu
 # Version:		1.0
@@ -19,6 +19,7 @@
 # The compiler to use
 CXX = g++
 
+# Both the tclap and rude libraries were saved in the same location
 # C pre-processor flags
 CPPFLAGS = -I /home/axon/hxc170009/cs3377/assignment5/include
 

@@ -1,6 +1,6 @@
 /*
- * Filename parser.h
- * Date April 18th 2020
+ * Filename enum.h
+ * Date April 21st 2020
  * Author Harsha Srikara
  * Email hxc170009@utdallas.edu
  * Course CS3377.501

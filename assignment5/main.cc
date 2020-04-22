@@ -1,4 +1,14 @@
 
+/*
+ * Filename Main.cc
+ * Date April 21st 2020
+ * Author Harsha Srikara
+ * Email hxc170009@utdallas.edu
+ * Course CS3377.501
+ * Version 1
+ * Copyright Harsha Srikara
+ * Description Starts a process that monitors a folder on the filesystem for changes. When detecting file modifications, it saves a copy  */
+
 #include <iostream>
 #include <fstream>
 #include "enum.h"
