@@ -5,3 +5,10 @@ logging file: cs3377dirmond.log
 password: secret
 number of versions: 10
 watch directory: /home/axon/hxc170009/testFolder
+Starting to track changes in: /home/axon/hxc170009/testFolder
+Creation event occured
+File created with name: hi.txt
+Modification event occured
+File modified with name: hi.txt
+Finished copying modified file to .versions
+SIGNINT/SIGTERM detected, gracefully shutting down

@@ -69,8 +69,10 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
 	        	map.insert(std::make_pair(password, config.getStringValue("Password")));
 		}
 		else {
-			std::cout << "Error, attempting to modify password" << std::endl;
-			return 1;
+			if(strcmp(map[password].c_str(), config.getStringValue("Password")) != 0) {
+				std::cout << "Error, attempting to modify password" << std::endl;
+				return 1;
+			}
 		}
 	}
         else {
@@ -99,8 +101,10 @@ int  parseConfigFile(std::map<keys, std::string> &map) {
 	        	map.insert(std::make_pair(watchDir, config.getStringValue("WatchDir")));
 		}
 		else {
-			std::cout << "Error, attempting to modify watch directory" << std::endl;
-			return 1;
+			if(strcmp(map[watchDir].c_str(), config.getStringValue("WatchDir")) != 0) {
+				std::cout << "Error, attempting to modify watch directory" << std::endl;
+				return 1;
+			}
 		}
         }
 	 else {
